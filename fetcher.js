@@ -7,7 +7,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-const url = "http://" + process.argv[2];
+const url = process.argv[2];
 const localPath = process.argv[3];
 
 const fetchPage = (url, localPath) => {
